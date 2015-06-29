@@ -1,0 +1,80 @@
+/* Bootstrap Overrides */
+
+body{
+    font-family: "Source Sans Pro";
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+}
+
+/*----------------------
+	NAV
+----------------------*/
+.navbar-default{
+	background: #222;
+	border:none;
+	min-height: 70px;
+	border-radius: 0px;
+    position: relative;
+    z-index: 2;
+}
+
+.navbar-brand{
+    display:block;
+    margin: 11px 0;
+    height: auto;
+}
+
+.navbar-custom{
+    margin-bottom:0;
+}
+
+.navbar-default
+.navbar-nav > li > a{
+	padding: 25px;
+    color:#bebebe;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}
+.nav-pills > li + li{
+    margin:0;
+}
+.nav-pills > li > a{
+    border-radius: 0px;
+}
+
+.navbar-default
+.navbar-nav > li > a:hover{
+    background: rgba(255,255,255,0.1);
+    color:#fff;
+}
+
+.navbar-default
+.navbar-nav > .active > a{
+    background: #555252;
+    color:#fff;
+}
+
+
+/* -----------------------
+    Header
+------------------------- */
+
+.page-header{
+    border:none;
+}
+
+
+/* -----------------------
+    Panel
+------------------------- */
+
+.panel{
+    border-radius: 2px;
+    border:none;
+    box-shadow: none;
+}
+
+.panel .panel-heading{
+    border-bottom:none;
+}

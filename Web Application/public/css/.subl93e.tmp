@@ -1,0 +1,29 @@
+/* Bootstrap Overrides */
+
+body{
+    font-family: "Source Sans Pro";
+}
+
+/*----------------------
+	NAV
+----------------------*/
+.navbar-default{
+	background: #222;
+	border:none;
+	min-height: 70px;
+	border-radius: 0px;
+}
+
+.navbar-brand{
+    display:block;
+    margin: 8px 0;
+    height: auto;
+}
+.navbar-default
+.navbar-nav > li > a{
+	padding: 25px;
+    color:#bebebe;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.medialabamsterdam.checklistprototype">
+
+    <uses-permission android:name="com.google.android.glass.permission.DEVELOPMENT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_location">
+            <intent-filter>
+                <action android:name="com.google.android.glass.action.VOICE_TRIGGER" />
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="com.google.android.glass.VoiceTrigger"
+                android:resource="@xml/voice_trigger" />
+        </activity>
+        <activity
+            android:name=".CategoriesActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_categories"/>
+        <activity
+            android:name=".InstructionsActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_instructions"/>
+        <activity
+            android:name=".SubCategoriesActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_rating"/>
+        <activity
+            android:name=".DetailsActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_rating_detailed"/>
+        <activity
+            android:name=".WarningActivity"
+            android:icon="@drawable/logo"
+            android:label="@string/title_activity_warning"/>
+    </application>
+
+</manifest>

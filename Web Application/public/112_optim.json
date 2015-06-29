@@ -1,0 +1,73 @@
+{
+	"list": {
+		"1" : {
+			"220110":"bloembak-zwerfafval fijn",
+			"220120":"bloembak-zwerfafval grof",
+			"220230":"grof vuil",
+			"220210":"zwerfafval fijn",
+			"220220":"zwerfafval grof"
+		},
+		"2": {
+			"220310":"zwerfafval fijn",
+			"220320":"zwerfafval grof"
+		},
+		"3": {
+			"220410":"gazon zwerfafval fijn",
+			"220420":"gazon zwerfafval grof",
+			"220430":"grof vuil",
+			"220440":"natuurlijk afval"
+		},
+		"4": {
+			"220510":"beplakking",
+			"220520":"graffiti"
+		},
+		"6": {
+			"220810":"beplakking-graffiti",
+			"220820":"besmeuring",
+			"220830":"natuurlijke aanslag",
+			"220840":"scheefstand",
+			"220850":"vullingsgraad"
+		},
+		"7": {
+			"220910":"beplakking en graffiti",
+			"220920":"natuurlijke aanslag",
+			"220930":"verdraaiing"
+		},
+		"9": {
+			"221010":"beplakking en graffiti",
+			"221020":"natuurlijke aanslag",
+			"221030":"scheefstand"
+		},
+		"11": {
+			"221310":"beplakking en graffiti",
+			"221320":"natuurlijke aanslag",
+			"221330":"scheefstand"
+		},
+		"12": {
+			"221410":"beplakking en graffiti",
+			"221420":"besmeuring",
+			"221430":"natuurlijke aanslag",
+			"221440":"scheefstand"
+		},
+		"13": {
+			"221510":"kolk-belemmering inlaat"
+		},
+		"14": {
+			"221610":"grof vuil",
+			"221630":"Verharding-natuurlijk afval",
+			"221640":"onkruid rondom obstakels",
+			"221650":"open verharding-elementverharding-onkruid klinkers",
+			"221660":"open verharding-elementverharding-onkruid tegels",
+			"221670":"open verharding-ongebonden verharding-onkruid",
+			"221680":"uitwerpselen",
+			"221690":"veegbaar zwerfafval fijn",
+			"221700":"veegvuil goten",
+			"221710":"zwerf afval fijn",
+			"221720":"zwerf afval grof",
+			"221730":"onkruid goten"
+		},
+		"10": {
+			"221110":"scheefstand"
+		}
+	}
+}
