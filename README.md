@@ -11,10 +11,10 @@ The Google Glass application is the main user input platform. On it, users can l
 
 ###Installation###
 
-**Google Glass' Gradr application:** To install the application on Google Glass you will need Android Studio with ADB enable. Your Google Glass will need to have developer settings enabled and no previous version of Gradr installed. To uninstall any version of Gradr from the glass, please use the following command on your console.
+**Google Glass' Gradr application:** To install the application on Google Glass you will need Android Studio with ADB enable (http://developer.android.com/tools/help/adb.html) with Android 4.4.2 API 19 and Glass Development KitPreview. Your Google Glass will need to have developer settings enabled and no previous version of Gradr installed. To uninstall any version of Gradr from the glass, please use the following command on your console.
 <pre><code>adb uninstall com.medialabamsterdam.checklistprototype</code></pre>
 
-And then just build the application normally.
+And then just build the application normally. See https://developers.google.com/glass/develop/gdk/quick-start for reference.
 
 **Gradr Web application:** For the Laravel documentation please visit http://laravel.com/docs/5.0
 
